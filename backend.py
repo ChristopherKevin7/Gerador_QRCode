@@ -26,8 +26,8 @@ class GeradorQREmail:
         # Detalhes de configuração do servidor de e-mail 
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587
-        email = 'christopherkevin78@gmail.com'
-        senha = 'snud pjtu jmlp uuhp'
+        email = 'exemplo@gmail.com'
+        senha = 'senha'
         mensagem = MIMEMultipart()
         mensagem['From'] = email
         mensagem['To'] = destinatario
